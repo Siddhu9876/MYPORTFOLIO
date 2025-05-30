@@ -32,7 +32,7 @@ const AboutSection: React.FC = () => {
           >
             <div className="aspect-square lg:aspect-auto lg:h-[480px] w-full relative">
               <img
-                src="src/components/myphoto1.jpg"
+                src="src/components/sections/myphoto1.jpg"
                 alt="Siddhardha Roy Mogilicharla"
                 className="w-full h-full object-cover"
               />
