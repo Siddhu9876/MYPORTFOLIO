@@ -32,10 +32,11 @@ const AboutSection: React.FC = () => {
           >
             <div className="aspect-square lg:aspect-auto lg:h-[480px] w-full relative">
               <img
-                src="src/components/sections/myphoto1.jpg"
-                alt="Siddhardha Roy Mogilicharla"
-                className="w-full h-full object-cover"
-              />
+  src="https://ik.imagekit.io/siddhardha/siddhu1.png?updatedAt=1749308991945"
+  alt="Siddhardha Roy Mogilicharla"
+  className="w-full h-full object-cover"
+/>
+
               
               {/* Overlay with geometric pattern */}
               <div className="absolute inset-0 bg-dark-500/40 mix-blend-multiply" />
@@ -97,7 +98,7 @@ const AboutSection: React.FC = () => {
             </div>
             
             <a 
-              href="src/components/cv4.pdf" 
+              href="https://ik.imagekit.io/siddhardha/cv4.pdf?updatedAt=1749309119131" 
               className="btn-primary inline-flex"
               target="_blank"
               rel="noopener noreferrer"

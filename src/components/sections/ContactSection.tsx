@@ -71,14 +71,14 @@ const ContactSection: React.FC = () => {
     try {
       // For demo purposes - replace with your EmailJS service/template/user IDs
       await emailjs.send(
-        'service_gsyx76q',
-        'template_sf2xfzt',
+        'service_gsyx76q',//service id
+        'template_sf2xfzt',//templt id
         {
           from_name: formData.name,
           reply_to: formData.email,
           message: formData.message
         },
-        'Fw1ixVaHajuXmaJYY'
+        'Fw1ixVaHajuXmaJYY'//public key
       );
       
       setSubmitStatus('success');
@@ -175,7 +175,7 @@ const ContactSection: React.FC = () => {
             
             <div className="mt-8">
               <a 
-                href="src/components/cv4.pdf" 
+                href="https://ik.imagekit.io/siddhardha/cv4.pdf?updatedAt=1749309119131" 
                 className="btn-outline"
                 target="_blank"
                 rel="noopener noreferrer"

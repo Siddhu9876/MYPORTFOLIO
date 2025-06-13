@@ -72,7 +72,7 @@ const Navbar: React.FC = () => {
             </button>
             
             <a 
-              href="src/components/cv4.pdf" 
+              href="https://ik.imagekit.io/siddhardha/cv4.pdf?updatedAt=1749309119131" 
               className="btn-neon"
               target="_blank"
               rel="noopener noreferrer"
